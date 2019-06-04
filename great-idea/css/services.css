@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Universal Styles */
 
 .container {
 	width: 880px;
@@ -96,106 +96,19 @@ nav img {
 	width: 190px;
 }
 
+.services-header-img {
+    width: 100%;
+    padding-top: 85px;
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
 header {
-	width: 100%;
-	padding-top: 70px;
-	margin-bottom: 5px;
-	border-bottom: 1px solid black;
-	padding-bottom: 70px;
-	display: flex;
-	align-items: center;
-}
-
-.header-title {
-	display: flex;
-	flex-flow: column;
-	justify-content: space-between;
-	width: 400px;
-	text-align: center;
-	margin-left: 30px;
-	margin-right: 30px;
-	align-items: center;
-}
-
-h1 {
-	font-size: 80px;
-}
-
-.button {
-	text-align: center;
-	width: 170px;
-	font-size:16px;
-	padding: 10px 0px;
-	background-color: white;
-	border: 1px solid black;
-}
-
-.button:hover {
-	background-color: #04A3FF;
-	transition: background-color .25s linear .2s;
-}
-
-header img {
-	margin-left: 30px;
-	margin-top: 60px;
-}
-
-
-
-.top-content {
-	width: 100%;
-	display: flex;
-	padding-bottom: 50px;
-	justify-content: space-between;
-}
-
-.top-content-area{
-	width: 45%;
-	margin: 10px;
-	padding-top: 25px;
-	padding-left: 10px;
-}
-
-.top-content-area:first-child{
-	padding-left: 0px;
-}
-
-p {
-	font-family: 'Mandali', sans-serif;
-}
-
-
-img.middle-img {
-	position: relative;
-	bottom: 10px;
-	left: 10px;
-}
-
-.bottom-content {
-	margin-top: 15px;
-	padding-bottom: 30px;
-	border-bottom: 1px solid black;
-	display: flex;
-	justify-content: space-between;
-}
-
-.bottom-content-area{
-	width: 30%;
-	margin: 10px;
-	padding-left: 10px;	
-}
-
-.bottom-content-area:first-child{
-	padding-left: 0px;
-}
-
-.contact {
-	padding-top: 35px;
-	padding-left: 10px;
-}
-
-footer {
-	margin-top: 32px 0px;
-	text-align: center;
-	font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    line-height: 1.2;
 }
