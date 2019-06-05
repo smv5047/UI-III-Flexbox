@@ -72,20 +72,21 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	width: 880px;
-	padding: 15px 0px ;
+	padding: 15px 0px;
 	position: fixed;
 	background-color: #04A3FF;
 	border-radius: 10px;
 	z-index: 2;
 	display: flex;
-	justify-content: space-around;
-	align-items: center
+	justify-content: flex-start;
+	align-items: baseline;
 }
 
 nav a {
-	width: 75px;
+    width: 10%;
 	text-decoration: none;
-	color: gray;
+    color: gray;
+    margin-right: 25px;
 }
 
 nav a:hover {
